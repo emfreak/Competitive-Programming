@@ -25,11 +25,11 @@ int main()
     cin>>n>>m;
     for (int i = 0; i < n; i++)
     {
-        cin>>ar1[1];
+        cin>>ar1[i];
     }
     for (int i = 0; i < m; i++)
     {
-        cin>>ar2[1];
+        cin>>ar2[i];
     }
     string ans= subarOfAr(ar1,ar2,n,m);
     cout<<ans;
